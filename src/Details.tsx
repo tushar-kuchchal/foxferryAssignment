@@ -18,7 +18,7 @@ const API_URL = 'https://dummyjson.com/products';
 const Detail = ({ id }: props) => {
   const [details, setDetails] = useState<Item | null>();
 
-console.log('details component called');
+console.log('details component call');
   useEffect(() => {
     const fetchDetails = async () => {
       try {
